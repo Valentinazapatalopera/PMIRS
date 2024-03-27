@@ -1,0 +1,30 @@
+/* en css se abre y se cierra con : y ; */  
+h1{
+    text-align: center;
+}
+body{
+    background-color:#B7C46F;  
+}
+.menu{
+    list-style-type: none; /*esto es para quitar cualquier estilo default que se le haya puesto como un punto*/
+
+}
+.menu li{ /*estilos a los li del menu en html */
+    padding-left:40px; /*para ponerle tamano al icono*/
+    background:url(https://res.cloudinary.com/dlqstidfv/image/upload/v1711510329/PMIRS/mundo_mrnyuv.png)no-repeat left center; /*url del icono y se pone no repeat para que no se repita*/
+    background-size: contain; /*para que contenga la imagen entera*/
+    margin-bottom: 10px;
+
+}
+
+div{
+    position: relative;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:#D0D89E; /*si quiero poner cuadros de diferente color cada uno en el html debo poner id en el div*/
+    width: 700px; /*ancho*/
+    border-radius: 20px;
+    /*border-style: ridge; (bordes de los div es opcional a gusto)/* 
+}
