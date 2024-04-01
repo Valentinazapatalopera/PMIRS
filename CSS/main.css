@@ -1,30 +1,62 @@
 /* en css se abre y se cierra con : y ; */  
+
+.titulo{
+    background-image: url(https://res.cloudinary.com/dlqstidfv/image/upload/v1711928455/PMIRS/fondo_icrdxy.png);
+    border-radius: 20px;
+    width: auto;
+    height: 200px;
+    
+}
 h1{
     text-align: center;
+    position: relative;
+    /*width: 1000px;*/
+    top: 40%; /*Posición verticalmente en la mitad superior del contenedor */
+    /*left: 50%; Posición horizontalmente en la mitad izquierda del contenedor */
+    /*transform: translate(-50%, -50%); Centra el h1 */
+    color:black;  /*Color del texto */
+    background-color:#D0D89E;  /*Fondo semitransparente para mejorar la legibilidad del texto */
+    
+
 }
+
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:#B7C46F;  
 }
 .menu{
     list-style-type: none; /*esto es para quitar cualquier estilo default que se le haya puesto como un punto*/
+    text-align: center; /*para centrar el texto*/
 
 }
-.menu li{ /*estilos a los li del menu en html */
+.menu li{ /*estilos a los elementos de la lista del menu en html cada li es un elemento de la lista*/
     padding-left:40px; /*para ponerle tamano al icono*/
     background:url(https://res.cloudinary.com/dlqstidfv/image/upload/v1711510329/PMIRS/mundo_mrnyuv.png)no-repeat left center; /*url del icono y se pone no repeat para que no se repita*/
     background-size: contain; /*para que contenga la imagen entera*/
     margin-bottom: 10px;
-
+    display: inline-block; /*para ponerlos horizontalmente*/
+    background-color:white;
+    border-radius: 10px;
+    
+    
 }
 
-div{
-    position: relative;
+
+.division{
+    position: relative;  /*border-style: ridge; (bordes de los div es opcional a gusto)*/
     top: 70px;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    color:#4F5B2F; /* Color del texto */
     background-color:#D0D89E; /*si quiero poner cuadros de diferente color cada uno en el html debo poner id en el div*/
     width: 700px; /*ancho*/
-    border-radius: 20px;
-    /*border-style: ridge; (bordes de los div es opcional a gusto)/* 
+    border-radius: 20px; 
+    margin-bottom: 20px;
+    margin-inline-start: auto; /*para poner el texto a un lado*/
+    margin-inline-end:auto; /*para poner el texto a un lado*/
+   
+}
+.parrafo{
+    color:black; /* Color del texto */  
 }
