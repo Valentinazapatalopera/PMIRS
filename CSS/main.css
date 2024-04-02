@@ -30,15 +30,14 @@ body{
 
 }
 .menu li{ /*estilos a los elementos de la lista del menu en html cada li es un elemento de la lista*/
-    padding-left:40px; /*para ponerle tamano al icono*/
+    padding-left:20px; /*para ponerle tamano al icono*/
     background:url(https://res.cloudinary.com/dlqstidfv/image/upload/v1711510329/PMIRS/mundo_mrnyuv.png)no-repeat left center; /*url del icono y se pone no repeat para que no se repita*/
     background-size: contain; /*para que contenga la imagen entera*/
     margin-bottom: 10px;
     display: inline-block; /*para ponerlos horizontalmente*/
     background-color:white;
     border-radius: 10px;
-    
-    
+    border-style: double;
 }
 
 
@@ -46,7 +45,7 @@ body{
     position: relative;  /*border-style: ridge; (bordes de los div es opcional a gusto)*/
     top: 70px;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
     text-align: center;
     color:#4F5B2F; /* Color del texto */
     background-color:#D0D89E; /*si quiero poner cuadros de diferente color cada uno en el html debo poner id en el div*/
@@ -59,4 +58,13 @@ body{
 }
 .parrafo{
     color:black; /* Color del texto */  
+}
+
+.image{
+    background: url('https://res.cloudinary.com/dlqstidfv/image/upload/v1712094617/PMIRS/recircular_am4ryp.png');
+    background-size: contain;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
 }
