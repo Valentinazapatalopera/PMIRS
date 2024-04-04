@@ -1,7 +1,7 @@
 /* en css se abre y se cierra con : y ; */  
 
 .titulo{
-    background-image: url(https://res.cloudinary.com/dlqstidfv/image/upload/v1711928455/PMIRS/fondo_icrdxy.png);
+    background-image: url(https://res.cloudinary.com/dlqstidfv/image/upload/v1712155671/PMIRS/Background_vtvnjf.png);
     border-radius: 20px;
     width: auto;
     height: 200px;
@@ -38,33 +38,64 @@ body{
     background-color:white;
     border-radius: 10px;
     border-style: double;
+    
+}
+.menu2{
+list-style-type: none;
+text-align: center;
+vertical-align: middle;  
+}
+.menu2 li{    
+background:url(https://res.cloudinary.com/dlqstidfv/image/upload/v1712254388/PMIRS/paloma_rv3uhe.png) no-repeat;
+
+background-size:20px; /* Especifica el tamaño deseado*/
+margin-bottom: 10px;
+margin-right: -20px;
 }
 
-
-.division{
+.division1{
     position: relative;  /*border-style: ridge; (bordes de los div es opcional a gusto)*/
-    top: 70px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color:#4F5B2F; /* Color del texto */
-    background-color:#D0D89E; /*si quiero poner cuadros de diferente color cada uno en el html debo poner id en el div*/
-    width: 700px; /*ancho*/
-    border-radius: 20px; 
-    margin-bottom: 20px;
-    margin-inline-start: auto; /*para poner el texto a un lado*/
-    margin-inline-end:auto; /*para poner el texto a un lado*/
+    /*margin-inline-start: auto; para poner el texto a un lado*/
+    /*margin-inline-end:auto; para poner el texto a un lado*/
+      border-radius: 20px;
+  background-color:#D0D89E;
+  margin-top: -10px; /* Mueve el texto hacia arriba */
+  margin-bottom: 2%;
+  padding: 10px;
+}
+.division2{
+    position: relative;  /*border-style: ridge; (bordes de los div es opcional a gusto)*/
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color:#4F5B2F; /* Color del texto */
+    /*margin-inline-start: auto; para poner el texto a un lado*/
+    /*margin-inline-end:auto; para poner el texto a un lado*/
+  border-radius: 20px;
+  background-color: #F3F4F2;
+  margin-top: -10px; /* Mueve el texto hacia arriba */
+  margin-bottom: 2%;
+  padding: 10px;
+ }
+
+table.contacto{
+    border-collapse: collapse;
+    margin: auto; /* Centra horizontalmente la tabla */
+    width: 30%; /* Anchura deseada para la tabla */
+    background-color: #DAFDBA;
+    border: 2px solid #45C4B0; 
+    
    
 }
 .parrafo{
     color:black; /* Color del texto */  
 }
 
-.image{
-    background: url('https://res.cloudinary.com/dlqstidfv/image/upload/v1712094617/PMIRS/recircular_am4ryp.png');
-    background-size: contain;
-    position: absolute;
-    left: 0%;
-    top: 50%;
-    transform: translateY(-50%);
-}
+
+
