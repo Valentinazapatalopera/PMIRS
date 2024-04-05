@@ -97,5 +97,27 @@ table.contacto{
     color:black; /* Color del texto */  
 }
 
+#menu_movil{
+    position: absolute;
+    width: 200px;
+    height: 100vh;
 
+}
+
+@media only screen and (max-width: 600px) {
+   #ocultar{
+    display: none;
+   } 
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #ocultar{
+        display: none;}
+}
+
+@media only screen and (min-width: 1025px) {
+    #movil{
+        display: none;
+    }   
+}
 
