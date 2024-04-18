@@ -1,4 +1,4 @@
-# Plan de Manejo Integral de Residuos Sólidos por Valentina Zapata! ♻️
+# Plan de Manejo Integral de Residuos Sólidos! ♻️
 
 ¡Bienvenido al repositorio del Plan de Manejo Integral de Residuos Sólidos! 
 Este proyecto es un esfuerzo personal para abordar el importante tema de la gestión adecuada de los residuos sólidos. 👩‍💼
